@@ -1,8 +1,8 @@
 # ARMMysqlCDemo
 
-ARMMysqlCDemo -- ARM Mysql C Demo
-
-采用了Buildroot创建的文件系统，现在要使用C连接ARM上的Mysql数据库，并对数据库进行操作，这仅仅是一个极其简单的Demo。
+  * ARMMysqlCDemo -- ARM Mysql C Demo
+  * 测试环境是采用了Buildroot创建的文件系统环境；
+  * 使用C语言连接ARM上的Mysql数据库，在数据库中创建一个名字叫zengjfdb的库。
 
 ## 操作步骤
 
@@ -15,13 +15,13 @@ ARMMysqlCDemo -- ARM Mysql C Demo
     libPath=output/target/usr/lib/
 ```
 
-* make 
-* 拷贝输出文件mysqlDemo到ARM主板上
-* 在ARM主板上运行
+* make进行编译；
+* 拷贝输出文件mysqlDemo到ARM主板上；
+* 在ARM主板上运行。
 
 ## 查看运行结果
 
-```
+```shell
     # mysql -u root -p
     Enter password: 
     Welcome to the MySQL monitor.  Commands end with ; or \g.
