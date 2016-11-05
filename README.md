@@ -1,8 +1,8 @@
 # ARMMysqlCDemo
 
   * ARMMysqlCDemo -- ARM Mysql C Demo
-  * 测试环境是采用了Buildroot创建的文件系统环境；
-  * 使用C语言连接ARM上的Mysql数据库，在数据库中创建一个名字叫zengjfdb的库。
+  * 测试环境是采用了Buildroot创建的文件系统环境；
+  * 使用C语言连接ARM上的Mysql数据库，在数据库中创建一个名字叫zengjfdb的库。
 
 ## 操作步骤
 
